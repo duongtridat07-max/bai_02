@@ -1,0 +1,104 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* Global */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Header **/
+header{
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #00bcd4 3px solid; /* Đổi sang màu xanh Cyan cho hiện đại */
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: #00bcd4;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #00bcd4;
+  transition: 0.3s;
+}
+
+/* Showcase */
+#showcase{
+  min-height: 400px;
+  /* Link ảnh: Mạng lưới kết nối công nghệ số (Digital Network) */
+  background: linear-gradient(rgba(0, 20, 30, 0.7), rgba(0, 20, 30, 0.7)), 
+              url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1472&q=80') no-repeat center;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#showcase h1{
+  font-size: 55px;
+  margin-bottom: 10px;
+  /* Hiệu ứng chữ phát sáng nhẹ */
+  text-shadow: 0 0 10px rgba(0, 188, 212, 0.8);
+  text-transform: uppercase;
+}
+
+#showcase p{
+  font-size: 20px;
+  max-width: 700px;
+  line-height: 1.8;
+}
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #35424a;
+  text-align: center;
+  border-top: #00bcd4 3px solid;
+}
